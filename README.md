@@ -1,4 +1,4 @@
-# CIFAR-10
+# CIFAR-10 implementation using ResNets
 
 An approach to implement ResNet9 and 18 model architectures on the CIFAR-10 Dataset.
 
