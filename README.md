@@ -13,7 +13,8 @@ matplotlib
 PIL(Python Imaging Library, for working with Images)
 
 ## Notes
-1. The dataset has 10 classes and all have equal number of training examples(6000 each). So there is no 
+1. The dataset has 10 classes and all have equal number of training examples(6000 each). So there is no class imbalance.
+2. The model architectures have been defined in separate classes, following the idea of Sequential API.
 
 ## Training     
 GPU is used for training.  
@@ -25,6 +26,19 @@ Some methods used to fasten training processes:
    __Weight Decay:__ This involves regularizing the weights, preventing them from becoming too large by adding an additional term to loss function.
 
    __Gradient Clipping:__ This involves restricting the gradient values to a small range to avoid undesirable changes in parameters.
+
+## Comparisons
+<img src = "https://github.com/kamlesh-ops/CIFAR-10_ResNets/assets/101917668/accfd1ae-9e4d-48a6-a472-e00912cef411" width = "500" heigt = "500">
+
+
+## Loss  
+Cross-Entropy Loss, which combines the negative log-likelihood(NLL) loss and log_softmax, is common for classification problems, compared to NLL loss. 
+
+## Optimizer
+Adam - Converges faster than SGD.
+
+## Accuracy
+Around 90% validation accuracy, and 89% test accuracy. 
 
 
 
