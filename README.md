@@ -6,7 +6,7 @@ An approach to implement ResNet9 and 18 model architectures on the CIFAR-10 Data
 CIFAR-10 consists of 60000 32X32 colour images in 10 classes, with 6000 images per class.  
 In the notebook, the dataset is imported using torchvision from pyTorch.
 
-## Training  
+## Training    
 1. GPU is used for training.
 2. Some methods used to fasten training processes:
  
