@@ -14,4 +14,8 @@ In the notebook, the dataset is imported using torchvision from pyTorch.
      
    __Weight Decay:__ This involves regularizing the weights, preventing them from becoming too large by adding an additional term to loss function.
 
+   __Gradient Clipping:__ This involves restricting the gradient values to a small range to avoid undesirable changes in parameters.
+
+
+
 
