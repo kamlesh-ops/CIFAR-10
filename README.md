@@ -34,6 +34,7 @@ The slight abruptness in the curve is possibly due to changing/scheduling learni
 
 ## Loss  
 Cross-Entropy Loss, which combines the negative log-likelihood(NLL) loss and log_softmax, is common for classification problems, compared to NLL loss. 
+Reference: [Cross_Entropy_Loss](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)
 
 ## Optimizer
 Adam - Converges faster than SGD.
