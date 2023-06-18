@@ -1,6 +1,7 @@
 # Classifying images of everyday objects using neural networks
 In this notebook, everyday objects like vehicles, animals, birds, etc. have been classified by image processing techniques.
-An approach to implement ResNet9 and 18 model architectures on the CIFAR-10 Dataset.   
+An approach to implement ResNet9 and 18 model architectures on the CIFAR-10 Dataset.
+Dataset Link: [Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)  
 
 ## About Dataset
 CIFAR-10 consists of 60000 '32X32' color images over 10 classes, each representing some common everyday object, with 6000 images per class.  
@@ -30,11 +31,11 @@ Some methods used to fasten training processes:
 ## Comparisons
 <img src = "https://github.com/kamlesh-ops/CIFAR-10_ResNets/assets/101917668/accfd1ae-9e4d-48a6-a472-e00912cef411" width = "500" heigt = "500">  
 
-The slight abruptness in the curve is possibly due to changing/scheduling learning rate.
+The slight abruptness in the curve is possibly due to changing/scheduling learning rate.  
 
 ## Loss  
 Cross-Entropy Loss, which combines the negative log-likelihood(NLL) loss and log_softmax, is common for classification problems, compared to NLL loss. 
-Reference: [Cross_Entropy_Loss](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)
+Reference: [Cross_Entropy_Loss](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)  
 
 ## Optimizer
 Adam - Converges faster than SGD.
