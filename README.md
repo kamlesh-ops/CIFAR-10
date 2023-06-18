@@ -1,10 +1,10 @@
-# CIFAR-10 implementation using ResNets
-
-An approach to implement ResNet9 and 18 model architectures on the CIFAR-10 Dataset.  
+# Classifying images of everyday objects using neural networks
+In this notebook, everyday objects like vehicles, animals, birds, etc. have been classified by image processing techniques.
+An approach to implement ResNet9 and 18 model architectures on the CIFAR-10 Dataset.   
 
 ## About Dataset
-CIFAR-10 consists of 60000 32X32 colour images in 10 classes, with 6000 images per class.  
-In the notebook, the dataset is imported using torchvision from pyTorch.
+CIFAR-10 consists of 60000 '32X32' color images over 10 classes, each representing some common everyday object, with 6000 images per class.  
+In the notebook, the dataset is imported using torchvision from PyTorch.
 
 ## Training     
 GPU is used for training.  
