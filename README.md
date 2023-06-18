@@ -1,6 +1,6 @@
 # Classifying images of everyday objects using neural networks
 In this notebook, everyday objects like vehicles, animals, birds, etc. have been classified by image processing techniques.
-An approach to implement ResNet9 and 18 model architectures on the CIFAR-10 Dataset.
+An approach to implement ResNet9 and 18 model architectures on the CIFAR-10 Dataset.  
 Dataset Link: [Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)  
 
 ## About Dataset
