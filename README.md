@@ -7,8 +7,8 @@ CIFAR-10 consists of 60000 32X32 colour images in 10 classes, with 6000 images p
 In the notebook, the dataset is imported using torchvision from pyTorch.
 
 ## Training     
-GPU is used for training.
-Some methods used to fasten training processes:
+GPU is used for training.  
+Some methods used to fasten training processes:  
  
    __Learning Rate Scheduling:__ This is to facilitate changing of the learning rate after each batch of training. Here we implement the "One cycle Learning Rate"     policy, which involves increasing the learning rate for about 30% of epochs and then reducing it.
      
