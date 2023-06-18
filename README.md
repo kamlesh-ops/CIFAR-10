@@ -28,8 +28,9 @@ Some methods used to fasten training processes:
    __Gradient Clipping:__ This involves restricting the gradient values to a small range to avoid undesirable changes in parameters.
 
 ## Comparisons
-<img src = "https://github.com/kamlesh-ops/CIFAR-10_ResNets/assets/101917668/accfd1ae-9e4d-48a6-a472-e00912cef411" width = "500" heigt = "500">
+<img src = "https://github.com/kamlesh-ops/CIFAR-10_ResNets/assets/101917668/accfd1ae-9e4d-48a6-a472-e00912cef411" width = "500" heigt = "500">  
 
+The slight abruptness in the curve is possibly due to changing/scheduling learning rate.
 
 ## Loss  
 Cross-Entropy Loss, which combines the negative log-likelihood(NLL) loss and log_softmax, is common for classification problems, compared to NLL loss. 
