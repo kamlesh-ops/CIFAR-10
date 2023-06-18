@@ -9,6 +9,7 @@ In the notebook, the dataset is imported using torchvision from pyTorch.
 ## Training  
 1. GPU is used for training.
 2. Some methods used to fasten training processes:  
-   __Learning Rate Scheduling:__ This is to facilitate changing of the learning rate after each batch of training. Here we implement the "One cycle Learning Rate"     policy, which involves increasing the learning rate for about 30% of epochs and then reducing it. 
+   __Learning Rate Scheduling:__ This is to facilitate changing of the learning rate after each batch of training. Here we implement the "One cycle Learning Rate"     policy, which involves increasing the learning rate for about 30% of epochs and then reducing it.  
+   __Weight Decay:__This involves regularizing the weights, preventing them from becoming too large by adding an additional term to loss function.
 
 
